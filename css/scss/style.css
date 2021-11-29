@@ -203,4 +203,34 @@ img {
 .news-contents__aside {
   width: 22%;
 }
+
+.news-contents__sub-menu {
+  margin-bottom: 60px;
+  list-style: none;
+}
+
+.news-contents__sub-item {
+  border-bottom: 1px #ddd solid;
+}
+
+.news-contents__link {
+  color: #432;
+  padding: 10px;
+  display: block;
+}
+
+.news-contents__link:hover {
+  color: #0bd;
+}
+
+.news-contents__sub-title {
+  font-size: 1.375rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
+}
+
+.news-contents__sub-text {
+  padding: 12px 10px;
+}
 /*# sourceMappingURL=style.css.map */
