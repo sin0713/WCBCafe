@@ -100,4 +100,40 @@ img {
 .home-content__button:hover {
   background: #0090aa;
 }
+
+#news {
+  background-size: cover;
+  background-position: center top;
+  background-image: url(../../images/news-bg.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+
+.news-heading {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.news-heading__title {
+  font-size: 5rem;
+  font-family: "Philosopher", serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+}
+
+.footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+}
+
+.footer__copy {
+  color: #fff;
+  font-size: 0.875rem;
+}
 /*# sourceMappingURL=style.css.map */
