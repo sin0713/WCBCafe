@@ -1,0 +1,12 @@
+@mixin wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+
+}
+
+@mixin big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+

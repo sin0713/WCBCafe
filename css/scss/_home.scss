@@ -1,0 +1,13 @@
+@import 'variables';
+#home {
+  @include big-bg;
+  background-image: url(../../images/main-bg.jpg);
+  min-height: 100vh;
+
+
+  & .home-content {
+    &__title {
+      text-transform: none;
+    }
+  }
+}
